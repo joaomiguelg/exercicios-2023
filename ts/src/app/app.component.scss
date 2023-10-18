@@ -177,4 +177,63 @@
 
 }
 
+.section__video {
+
+  margin-top: 16px;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__painel {
+
+    &__title {
+
+      width: 242px;
+      height: 45px;
+
+      border: 1px solid #ECECEC;
+      border-radius: 3px;
+      padding: 8px 0 8px 10px;
+
+      background-color: #FDF1EB;
+
+      h4 {
+        font-family: 'Roboto', sans-serif;
+        color: #4E4E4E;
+      }
+
+    }
+
+    &__text {
+
+      width: 242px;
+      height: 394px;
+      padding: 10px;
+      border: 1px solid #ECECEC;
+      border-radius: 3px;
+
+      overflow: auto;
+
+      font-family: 'Quicksand', sans-serif;
+
+    }
+
+  }
+
+}
+
+.section__video__painel__text::-webkit-scrollbar {
+  width: 3px;
+
+}
+
+.section__video__painel__text::-webkit-scrollbar-thumb {
+  background-color: #8d8d8d56;
+}
+
+.section__video__painel__text::-webkit-scrollbar-track {
+  background-color: #0000000e;
+}
+
+
 
