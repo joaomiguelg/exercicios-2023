@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Features} from './features';
+
 
 @Component({
   selector: 'app-root',
@@ -8,3 +10,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'DevChuva';
 }
+
+const features = new Features();
+
+features.showMore();
+
+
+
+
