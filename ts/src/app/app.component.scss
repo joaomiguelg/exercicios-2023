@@ -239,7 +239,8 @@
 
   position: relative;
 
-  margin-top: 16px;
+  margin-top: 32px;
+  width: 100%;
 
 
 
@@ -280,6 +281,177 @@
 
   }
 
+
+}
+
+.section__discut {
+
+  width: 100%;
+  margin-top: 32px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid #ECECEC;
+  border-radius: 3px;
+
+  &__title {
+
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+    padding: 8px 0 8px 10px;
+
+
+    background-color: #FDF1EB;
+
+    h4 {
+
+      font-family: 'Roboto', sans-serif;
+      color: #4E4E4E;
+
+    }
+
+
+  }
+
+  &__new-topic {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    margin: 12px 0 12px 0;
+
+    width: 60%;
+
+
+    &__title {
+
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: #ED7839;
+
+
+    }
+
+    &__icons {
+
+      list-style: none;
+
+      display: flex;
+      gap: 36px;
+
+    }
+
+  p {
+
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+
+
+  }
+
+  &__button {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: 133px;
+    height: 32px;
+    border-radius: 3px;
+    border: none;
+
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+
+    box-shadow: 0px 2px 2px 0px #0000003D;
+    color: #ffff;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+
+  }
+
+  }
+
+&__card {
+
+  width: 98%;
+
+  border: 1px solid #E7E7E7;
+  box-shadow: 0px 0px 8px 0px #0000001F;
+  border-radius: 4px;
+
+  padding: 24px;
+  margin: 12px ;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__header {
+
+    h4 {
+      font-family: 'Quicksand', sans-serif;
+      color: #ED7839;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    p {
+
+      font-family: 'Quicksand', sans-serif;
+      color: #5C5C5C;
+      font-size: 12px;
+      font-weight: bolder;
+
+    }
+
+  }
+
+  &__body {
+
+    font-family: 'Quicksand', sans-serif;
+    color: #5C5C5C;
+    font-size: 14px;
+    font-weight: 400;
+
+  }
+
+  &__footer {
+
+
+
+    &__icons {
+
+      list-style: none;
+
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      p {
+
+        font-family: 'Roboto', sans-serif;
+        color: #5C5C5C;
+
+      }
+    }
+
+
+
+
+  }
+
+
+
+}
 
 }
 
