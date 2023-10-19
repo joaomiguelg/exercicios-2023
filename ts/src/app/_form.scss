@@ -1,0 +1,107 @@
+.form {
+
+  width: 100%;
+
+
+  margin-top: 16px;
+
+  p {
+
+    margin-bottom: 8px;
+
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+
+    text-align: center;
+
+
+  }
+
+  &__content {
+
+    margin-left: 42px;
+
+
+    label {
+
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: left;
+
+      color:#ED7839 ;
+
+    }
+
+    #assunto {
+
+      height: 39px;
+      padding-left: 16px;
+
+      border: 1px solid #CCCCCC;
+      border-radius: 3px;
+
+      margin-bottom: 16px;
+
+      font-family: Quicksand;
+      font-size: 14px;
+      font-weight: 400;
+
+
+    }
+
+    #conteudo {
+
+      height: 113px;
+
+      border: 1px solid #CCCCCC;
+      border-radius: 3px;
+
+
+
+
+    }
+
+    input {
+
+      width: 95%;
+
+
+    }
+
+
+  }
+
+  .btn-submit {
+
+    width: 205.1px;
+    height: 31px;
+    border-radius: 0px, 0px, 4px, 0px;
+
+    border: none;
+    border-radius: 4px;
+    color: #ffff;
+
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+
+    margin: 16px 0 16px 0;
+
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    &:hover{
+
+      background: linear-gradient(180deg, #feb25496 0%, #f1833e98 100%); ;
+
+    }
+
+
+
+
+  }
+
+}
