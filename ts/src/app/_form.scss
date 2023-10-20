@@ -75,7 +75,7 @@
 
   .btn-submit {
 
-    width: 205.1px;
+    width: 136px;
     height: 31px;
     border-radius: 0px, 0px, 4px, 0px;
 
@@ -85,7 +85,10 @@
 
     background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
 
-    margin: 16px 0 16px 0;
+    float: right;
+
+    margin-right: 30px;
+    margin-top: 5px;
 
     font-family: Quicksand;
     font-size: 15px;
